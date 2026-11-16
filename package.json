@@ -1,0 +1,26 @@
+{
+  "name": "pv-shading-glare-studio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "光伏阵列阴影与眩光分析系统 (PV array shading & glare analysis)",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "perf": "vitest run tests/perf.test.ts"
+  },
+  "dependencies": {
+    "three": "^0.187.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/three": "^0.187.0",
+    "jsdom": "^29.1.1",
+    "typescript": "^5.7.2",
+    "vite": "^8.3.8",
+    "vitest": "^5.1.0"
+  }
+}
